@@ -1,0 +1,17 @@
+import './App.css';
+import MyComponentFunction from './MyComponentFunction.js';
+
+
+const App = ()=> {
+  
+  //return <MyComponentFunction />;
+  //return <MyComponentFunction name="React"/>;
+
+  //파라미터 주기.
+  return <MyComponentFunction name="React" favoriteNumber={1}>리액트</MyComponentFunction>;
+  
+};
+
+export default App;
+
+
